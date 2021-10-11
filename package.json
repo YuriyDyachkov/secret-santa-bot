@@ -2,7 +2,7 @@
   "name": "secret-santa-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
     "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +11,12 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^10.0.0",
+    "node-fetch": "^3.0.0",
     "telegraf": "^4.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
   }
 }
